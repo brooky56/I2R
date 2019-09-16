@@ -19,7 +19,7 @@
               parent="base_link" child="link_01"
               limit_e="1000" limit_l="-3.14" limit_u="3.14" limit_v="0.5" />
 
-  <m_link_cylinder name="${link_01_name}"
+<m_link_cylinder name="${link_01_name}"
               origin_rpy="0 0 0" origin_xyz="0 0 0.2"
               mass="57.906"
               ixx="12.679" ixy="0" ixz="0"
@@ -28,12 +28,12 @@
               radius="0.35" length="0.4" />
 
 <m_joint name="${link_01_name}__${link_02_name}" type="revolute"
-           axis_xyz="0 1 0"
-           origin_rpy="0 0 0" origin_xyz="0 0 0.4"
-           parent="link_01" child="link_02"
-           limit_e="1000" limit_l="0" limit_u="0.5" limit_v="0.5" />
+              axis_xyz="0 1 0"
+              origin_rpy="0 0 0" origin_xyz="0 0 0.4"
+              parent="link_01" child="link_02"
+              limit_e="1000" limit_l="0" limit_u="0.5" limit_v="0.5" />
            
-  <m_link_cylinder name="${link_02_name}"
+<m_link_cylinder name="${link_02_name}"
               origin_rpy="0 0 0" origin_xyz="0 0 0.4"
               mass="57.906"
               ixx="12.679" ixy="0" ixz="0"
@@ -41,13 +41,13 @@
               izz="0.651"
               radius="0.15" length="0.8" />
 
- <m_joint name="${link_02_name}__${link_03_name}" type="revolute"
-           axis_xyz="0 1 0"
-           origin_rpy="0 0 0" origin_xyz="0 0 0.7"
-           parent="link_02" child="link_03"
-           limit_e="1000" limit_l="0" limit_u="0.75" limit_v="0.5" />
+<m_joint name="${link_02_name}__${link_03_name}" type="revolute"
+              axis_xyz="0 1 0"
+              origin_rpy="0 0 0" origin_xyz="0 0 0.7"
+              parent="link_02" child="link_03"
+              limit_e="1000" limit_l="0" limit_u="0.75" limit_v="0.5" />
            
-  <m_link_sphere name="${link_03_name}"
+ <m_link_sphere name="${link_03_name}"
               origin_rpy="0 1.5 0" origin_xyz="0 0 0.4"
               mass="57.906"
               ixx="12.679" ixy="0" ixz="0"
@@ -55,13 +55,13 @@
               izz="0.651"
               radius="0.3"/>
 
-  <m_joint name="${link_03_name}__${link_04_name}" type="revolute"
-           axis_xyz="0 0 1"
-           origin_rpy="0 0 0" origin_xyz="0 0 0.4"
-           parent="link_03" child="link_04"
-           limit_e="1000" limit_l="0" limit_u="0.75" limit_v="0.5" />
+<m_joint name="${link_03_name}__${link_04_name}" type="revolute"
+              axis_xyz="0 0 1"
+              origin_rpy="0 0 0" origin_xyz="0 0 0.4"
+              parent="link_03" child="link_04"
+              limit_e="1000" limit_l="0" limit_u="0.75" limit_v="0.5" />
            
-  <m_link_sphere name="${link_04_name}"
+<m_link_sphere name="${link_04_name}"
               origin_rpy="0 0 0" origin_xyz="0 0 0.6"
               mass="57.906"
               ixx="12.679" ixy="0" ixz="0"
@@ -70,12 +70,12 @@
               radius="0.3"/>
 
 <m_joint name="${link_04_name}__${link_05_name}" type="revolute"
-           axis_xyz="0 1 0"
-           origin_rpy="0 0 0" origin_xyz="0 0 0.5"
-           parent="link_04" child="link_05"
-           limit_e="1000" limit_l="-3.14" limit_u="3.14" limit_v="0.5" />
+              axis_xyz="0 1 0"
+              origin_rpy="0 0 0" origin_xyz="0 0 0.5"
+              parent="link_04" child="link_05"
+              limit_e="1000" limit_l="-3.14" limit_u="3.14" limit_v="0.5" />
            
-  <m_link_cylinder name="${link_05_name}"
+<m_link_cylinder name="${link_05_name}"
               origin_rpy="0 1.5 0" origin_xyz="0 0 0.5"
               mass="18.056"
               ixx="0.479" ixy="0" ixz="0"
